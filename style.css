@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  background-color: lightskyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-items: center;
+}
+h3 {
+  padding: 20px;
+  text-align: center;
+}
+button {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+table {
+    cursor: default; /* Cambia el cursor */
+    user-select: none; /* Desactiva la selección de texto */
+    
+}
+.lienzo td{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  width: 90%;
+  height: 750px;
+  margin-top: 30px;
+}
+
+.paleta {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  background-color: white;
+  
+  height: 97%;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.contenedorLienzo {
+  display: grid;
+  background-color: white;
+  width: 90%;
+  height: 97%;
+  margin: 10px;
+  border-radius: 20px;
+
+  justify-items: center; /*Alinea el contenido del contenedor horizontalmente*/
+  align-items: center; /*Alinea el contenido del contenedor verticalmente*/
+}
+.lienzo {
+  width: 95%;
+  height: 662px;
+  border: 1px solid gray;
+}
+.colores {
+  margin-left: 10px;
+  height: 90%;
+}
+.seleccion {
+  display: grid;
+  margin-left: 10px;
+  height: 90%;
+  justify-items: center;
+}
+.color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.colores table {
+    width: 90%;
+}
+
+.color.seleccionado {
+  border: 6px solid black;
+}
+
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#orange {
+  background-color: orange;
+}
+#yellow {
+  background-color: yellow;
+}
+#brown {
+  background-color: brown;
+}
+#gray {
+  background-color: gray;
+}
+#black {
+  background-color: black;
+}
+#white {
+  background-color: white;
+}
+#lightblue {
+  background-color: lightblue;
+}
